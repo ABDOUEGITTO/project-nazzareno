@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a:hover{text-decoration: none;}
+.color-blue{color:#3A64AB;}
+.color-grigio{color:#555555;}
+.color-chiaro{color:#707070;}
+.b-white{background-color:#fff}
+.b-blue{background-color: #3A64AB;}
+
+.fs-0{font-size: 10px;}
+.fs-1{font-size:11px;}
+.fs-2{font-size:12px;}
+.fs-3{font-size:13px}
+.fs-4{font-size:14px;}
+.fs-5{font-size:15px;}
+.fs-6{font-size:20px}
+
+.margin-t-4{margin-top: 40px;}
+
+.list{list-style:none}
+body{
+    background:#F8F8F8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* start header */
+
+.header{
+    width: 100%;
+    height:550px;
+    background-image: url(../image/Fabio-048.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+}
+aside{
+    position: absolute;
+    top:0;
+    right:0%;
+    z-index: 8;
+    background: #3A64AB;
+    width: 100%;height:120vh;
+}
+.open-menu{
+    position: absolute;
+    top:0;
+    right:100%;
+    z-index: 8;
+    background: #3A64AB;
+    width: 100%;height:120vh;
+}
+
+.footer-aside{
+    position: absolute;
+    top: 35%;
+}
+
+.theme-1, .footer-aside ul li{
+    color: #fff;opacity: 0.5;
+}
+
+.theme-1{
+    margin-bottom: 15px
+}
+
+.footer-aside ul li {
+    margin-bottom: 7px;
+}
+.footer-aside .under-line{
+
+ background: #EEE; 
+ height:1px;
+ width:100%;
+ margin-left: 25px;
+ margin-top: 45px;
+ opacity: 0.7;
+}
+.line{
+    border: 1px solid rgb(226, 209, 209);
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 100%;
+}
+
+.box-logo img{
+    width:200px;
+    height: 50px;
+}
+
+.head-page{
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%,-50%);
+}
+
+.scroll{
+    color: #fff;
+    height: 150px;
+    width:2px;
+    position: absolute;
+    top:85% ;
+    left:50%;
+    background-color:#de983d;
+    
+}
+/* end header */
+/* start text-easy */
+.text-easy{
+    padding-top: 100px;
+    margin-bottom: 90px;
+}
+/* end text-easy */
+
+/* start force-naz */
+.force-naz {
+    background: linear-gradient(
+        to right,
+        rgba(248, 248, 248,1) 0%, 
+        rgba(248, 248, 248, 1) 20%, 
+        rgba(255, 255, 255,1) 20%, 
+        rgba(255, 255, 255,1) 100% );
+        height: 450px;
+}
+
+.force .force-card{
+    padding-top: 60px;
+   
+}
+/* end force-naz */
+
+/* start spart-naz */
+.sparta-naz {
+    background: linear-gradient(
+        to left,
+        rgba(248, 248, 248,1) 0%, 
+        rgba(248, 248, 248, 1) 27%, 
+        rgba(255, 255, 255,1) 27%, 
+        rgba(255, 255, 255,1) 100% );
+        height: 400px;
+}
+
+.sparta .sparta-card{
+    padding-top: 60px;
+    
+}
+
+/* end sparta-naz */
+/* start Dynamite-naz */
+.dynamite-naz {
+    background: linear-gradient(
+        to right,
+        rgba(248, 248, 248,1) 0%, 
+        rgba(248, 248, 248, 1) 20%, 
+        rgba(255, 255, 255,1) 20%, 
+        rgba(255, 255, 255,1) 100% );
+        height: 450px;
+}
+
+.dynamite .dynamite-card{
+    padding-top: 60px;
+   
+}
+/* end Dynamite-naz */
+
+/* start nazzareno */
+.nazzareno {
+    height: 200px;
+    position: relative;
+}
+.nazzareno .nazz-img {
+   width: 170px;
+   position: absolute;
+   top: 20%;
+   left: 50%; 
+}
+/* end nazzareno */

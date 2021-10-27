@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a:hover{text-decoration: none;}
+.color-blue{color:#3A64AB;}
+.color-grigio{color:#555555;}
+.color-chiaro{color:#707070;}
+.b-white{background-color:#fff}
+.b-blue{background-color: #3A64AB;}
+
+.fs-0{font-size: 10px;}
+.fs-1{font-size:11px;}
+.fs-2{font-size:12px;}
+.fs-3{font-size:13px}
+.fs-4{font-size:14px;}
+.fs-5{font-size:15px;}
+.fs-6{font-size:20px}
+
+.margin-t-4{margin-top: 40px;}
+
+.list{list-style:none}
+body{
+    background:#F8F8F8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* start header */
+
+.header{
+    width: 100%;
+    height:550px;
+    background-image: url(../image/header.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+}
+aside{
+    position: absolute;
+    top:0;
+    right:0%;
+    z-index: 8;
+    background: #3A64AB;
+    width: 100%;height:120vh;
+}
+.open-menu{
+    position: absolute;
+    top:0;
+    right:100%;
+    z-index: 8;
+    background: #3A64AB;
+    width: 100%;height:120vh;
+}
+
+.footer-aside{
+    position: absolute;
+    top: 35%;
+}
+
+.theme-1, .footer-aside ul li{
+    color: #fff;opacity: 0.5;
+}
+
+.theme-1{
+    margin-bottom: 15px
+}
+
+.footer-aside ul li {
+    margin-bottom: 7px;
+}
+.footer-aside .under-line{
+
+ background: #EEE; 
+ height:1px;
+ width:100%;
+ margin-left: 25px;
+ margin-top: 45px;
+ opacity: 0.7;
+}
+.line{
+    border: 1px solid rgb(226, 209, 209);
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 100%;
+}
+
+.box-logo img{
+    width:200px;
+    height: 50px;
+}
+
+.head-page{
+    position:absolute;
+    top: 65%;
+    left: 20%;
+    color: #fff;
+    width:350px;
+    height: 300px;
+    padding: 10px 0px;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.scroll{
+    color: #fff;
+    height: 150px;
+    width:1px;
+    position: absolute;
+    top:90% ;
+    left:80%;
+    background-color:#de983d;
+    
+}
+
+.scroll-text{
+    margin-top: -25px;
+    transform: rotate(-90deg);
+    color: #de983d;
+    margin-left: -5px;
+    font-size: 9px;
+}
+
+
+/* end header */
+
+/*start section1*/
+.seation-1{
+    margin-top: 50px;
+}
+.seation-1 .img-rettangolo img{
+    width:400px;
+    height: 500px;
+    margin-top: 100px;
+}
+
+
+.seation-1 .text-rettangolo{
+    margin-top: 100px;
+}
+
+.seation-1 .text-rettangolo h3 {
+    color: #707070;
+    width:400px;
+    margin-bottom: 60px;
+    font-size: 27px;
+}
+.seation-1 .text-rettangolo p{
+    color: #555555;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.seation-1 .text-rettangolo a {
+    color: #3A64AB;
+    text-decoration: none;
+}
+.bg2{
+    background: linear-gradient(
+        to right,
+        rgba(248, 248, 248,1) 0%, 
+        rgba(248, 248, 248, 1) 20%, 
+        rgba(255, 255, 255,1) 20%, 
+        rgba(255, 255, 255,1) 100% );
+        height: 550px;       
+}
+
+.title {
+    margin-top: 160px;
+    width: 50%;
+    text-align: center;
+    color: #707070;
+    font-size: 19px;
+}
+.btn1{
+    font-size: 13px;
+}
+.photo {
+    margin-top: 80px;
+}
+.img1{
+    width: 250px;
+    height: 250px;
+}
+
+/*end section1*/
+
+/* start gamma */
+.gamma h2{
+    color: #3A64AB;
+    margin: 80px 0px;
+}
+/* end gamma */
+
+/*start section2*/
+
+
+.section2 .easy {
+    background: linear-gradient(
+        to left,
+        rgba(248, 248, 248,1) 0%, 
+        rgba(248, 248, 248, 1) 27%, 
+        rgba(255, 255, 255,1) 27%, 
+        rgba(255, 255, 255,1) 100% );
+}
+
+
+.section2 .easy p {
+    font-size: 13px;
+}
+
+.section2 .basic {
+    background: linear-gradient(
+        to right,
+        rgba(248, 248, 248,1) 0%, 
+        rgba(248, 248, 248, 1) 20%, 
+        rgba(255, 255, 255,1) 20%, 
+        rgba(255, 255, 255,1) 100% );
+}
+
+.section2 .solution {
+    background: linear-gradient(
+        to left,
+        rgba(248, 248, 248,1) 0%, 
+        rgba(248, 248, 248, 1) 27%, 
+        rgba(255, 255, 255,1) 27%, 
+        rgba(255, 255, 255,1) 100% );
+}
+
+/* end section2 */
+/* start nazzareno */
+.nazzareno {
+    height: 200px;
+    position: relative;
+}
+.nazzareno .nazz-img {
+   width: 170px;
+   position: absolute;
+   top: 20%;
+   left: 50%; 
+}
+/* end nazzareno */

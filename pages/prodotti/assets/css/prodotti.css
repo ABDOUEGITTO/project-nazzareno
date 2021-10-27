@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a:hover{text-decoration: none;}
+.color-blue{color:#3A64AB;}
+.color-grigio{color:#555555;}
+.color-chiaro{color:#707070;}
+.b-white{background-color:#fff}
+.b-blue{background-color: #3A64AB;}
+.b-chiaro{background-color: #dbdada;}
+
+.fs-0{font-size: 10px;}
+.fs-1{font-size:11px;}
+.fs-2{font-size:12px;}
+.fs-3{font-size:13px}
+.fs-4{font-size:14px;}
+.fs-5{font-size:15px;}
+.fs-6{font-size:20px}
+
+.margin-t-3{margin-top: 20px;}
+.margin-t-4{margin-top: 40px;}
+.margin-t-5{margin-top: 80px;}
+
+
+body{
+    background:#F8F8F8;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+
+/* navbar */
+
+.navbar-1{
+    width: 100%;
+    height:80px;
+    background:#fff;
+}
+header .link-0{
+    border-right: 1px solid #555555;
+}
+
+header .link-1{
+    border-bottom: 1px solid #555555;
+    
+}
+
+aside{
+    position: absolute;
+    top:0;
+    right:0%;
+    z-index: 8;
+    background: #3A64AB;
+    width: 100%;height:120vh;
+}
+.open-menu{
+    position: absolute;
+    top:0;
+    right:100%;
+    z-index: 8;
+    background: #3A64AB;
+    width: 100%;height:120vh;
+}
+
+.box-logo img{
+    width:200px;
+    height: 50px;
+}
+
+
+.footer-aside{
+    position: absolute;
+    top: 35%;
+}
+
+.theme-1, .footer-aside ul li{
+    color: #fff;opacity: 0.5;
+}
+
+.theme-1{
+    margin-bottom: 15px
+}
+
+.footer-aside ul li {
+    margin-bottom: 7px;
+}
+.footer-aside .under-line{
+    background: #EEE; 
+    height:1px;
+    width:100%;
+    margin-left: 25px;
+    margin-top: 45px;
+    opacity: 0.7;
+}
+.verticale-line{
+    content: "";
+    height: 120px;
+    width: 2px;
+    background: #de983d;
+    margin:117px auto 10px; 
+    margin-bottom: 60px; 
+}
+/* navbar */
+/* start prodotti-item */
+.slideshow{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    position: relative;
+}
+.btn-prev{
+    font-size:60px;
+    color: rgba(0, 0, 0, 0.418) ;
+    position: absolute;
+    left:-100%;
+    top: 50%;
+}
+.btn-next {
+    font-size:60px;
+    color: rgba(0, 0, 0, 0.418);
+    position: absolute;
+    right:-100%;
+    top: 50%;
+}
+.slideshow .click-left{
+    text-align: left;
+    
+}
+.slideshow .click-right{
+    text-align: right;
+}
+
+/* end prodotti-item */
+
+.nazzareno {
+    height: 200px;
+    position: relative;
+}
+.nazzareno .nazz-img {
+   width: 170px;
+   position: absolute;
+   top: 20%;
+   left: 50%; 
+}
+/* end nazzareno */
